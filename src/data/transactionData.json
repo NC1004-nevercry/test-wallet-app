@@ -1,0 +1,135 @@
+[
+  {
+    "id": "1",
+    "type": "Payment",
+    "amount": 150.75,
+    "transactionName": "Payment",
+    "transactionDescription": "Purchased weekly budget for Electircity.",
+    "date": "2024-12-01T10:30:00.000Z",
+    "pendingStatus": false,
+    "authorizedUser": "John Doe",
+    "logo": {
+      "background": "#434343",
+      "icon": "faCreditCard"
+    }
+  },
+  {
+    "id": "2",
+    "type": "Credit",
+    "amount": 2500,
+    "transactionName": "IKEA",
+    "transactionDescription": "Monthly salary Paid. Monthly salary Paid",
+    "date": "2024-12-01T08:00:00.000Z",
+    "pendingStatus": false,
+    "logo": {
+      "background": "#1890ff",
+      "icon": "faCreditCard"
+    }
+  },
+  {
+    "id": "3",
+    "type": "Payment",
+    "amount": 75.5,
+    "transactionName": "Payment",
+    "transactionDescription": "Paid electricity",
+    "date": "2024-12-02T14:00:00.000Z",
+    "pendingStatus": true,
+    "logo": {
+      "background": "#434343",
+      "icon": "faCreditCard"
+    }
+  },
+  {
+    "id": "4",
+    "type": "Payment",
+    "amount": 45,
+    "transactionName": "Payment",
+    "transactionDescription": "Filled up the car",
+    "date": "2024-12-03T12:15:00.000Z",
+    "pendingStatus": false,
+    "authorizedUser": "Jane Smith",
+    "logo": {
+      "background": "#434343",
+      "icon": "faCreditCard"
+    }
+  },
+  {
+    "id": "5",
+    "type": "Credit",
+    "amount": 100,
+    "transactionName": "IKEA",
+    "transactionDescription": "Refund for gift",
+    "date": "2024-12-04T16:45:00.000Z",
+    "pendingStatus": true,
+    "logo": {
+      "background": "#1890ff",
+      "icon": "faCreditCard"
+    }
+  },
+  {
+    "id": "6",
+    "type": "Payment",
+    "amount": 1200,
+    "transactionName": "Payment",
+    "transactionDescription": "Paid December rent",
+    "date": "2024-12-05T09:00:00.000Z",
+    "pendingStatus": false,
+    "logo": {
+      "background": "#434343",
+      "icon": "faCreditCard"
+    }
+  },
+  {
+    "id": "7",
+    "type": "Payment",
+    "amount": 35.75,
+    "transactionName": "Payment",
+    "transactionDescription": "Monthly salary Paid.",
+    "date": "2024-12-06T13:30:00.000Z",
+    "pendingStatus": true,
+    "logo": {
+      "background": "#434343",
+      "icon": "faCreditCard"
+    }
+  },
+  {
+    "id": "8",
+    "type": "Credit",
+    "amount": 500,
+    "transactionName": "Target",
+    "transactionDescription": "Cashback on credit",
+    "date": "2024-12-07T15:00:00.000Z",
+    "pendingStatus": false,
+    "authorizedUser": "John Doe",
+    "logo": {
+      "background": "#b5f5ec",
+      "icon": "faCreditCard"
+    }
+  },
+  {
+    "id": "9",
+    "type": "Payment",
+    "amount": 200,
+    "transactionName": "Payment",
+    "transactionDescription": "Dinner at a restaurant",
+    "date": "2024-12-08T19:00:00.000Z",
+    "pendingStatus": false,
+    "logo": {
+      "background": "#434343",
+      "icon": "faCreditCard"
+    }
+  },
+  {
+    "id": "10",
+    "type": "Credit",
+    "amount": 150,
+    "transactionName": "Target",
+    "transactionDescription": "Quarterly performance",
+    "date": "2024-12-09T11:00:00.000Z",
+    "pendingStatus": false,
+    "logo": {
+      "background": "#b5f5ec",
+      "icon": "faCreditCard"
+    }
+  }
+]
