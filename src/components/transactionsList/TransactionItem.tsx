@@ -19,9 +19,12 @@ function TransactionItem({ data }: { data: ITransaction }) {
     oneWeekAgo.setDate(now.getDate() - 7);
 
     if (date >= oneWeekAgo) {
-      return date.toLocaleDateString("en-PL", { weekday: "long" });
+      return date.toLocaleDateString("en-PL", {
+        weekday: "long",
+        timeZone: "UTC",
+      });
     } else {
-      return date.toLocaleDateString("en-PL");
+      return date.toLocaleDateString("en-PL", { timeZone: "UTC" });
     }
   };
 
